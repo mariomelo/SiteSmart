@@ -1,0 +1,23 @@
+.background {
+  background-image:url('background.jpg') !important;
+  opacity: 0.4;
+}
+
+.brand img{
+  width: 25%;
+  height: 25%;
+}
+
+.header-12-sub .aside:before{
+  background: #e67e22 !important;
+}
+
+.header-12-sub .aside .btn{
+  background-color: #34495e !important;
+  color: white !important;
+}
+
+.header-12-sub:after{
+  border-left-color: #34495e !important;
+  border-top-color: #34495e !important;
+}
