@@ -21,3 +21,7 @@
   border-left-color: #34495e !important;
   border-top-color: #34495e !important;
 }
+
+a.wide{
+  color: white !important;
+}
