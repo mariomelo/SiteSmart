@@ -1,4 +1,4 @@
-$('a.veja').click(function(event){
+$("#contactForm").submit(function(event){
   event.preventDefault();
-  console.log('Aeee');
+  alert('aaaaaa');
 });
