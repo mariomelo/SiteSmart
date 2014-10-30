@@ -27,7 +27,7 @@ $(document).ready(function(){
 		  $.ajax({   
 		     type: 'POST',   
 		     crossDomain: true,
-		     url: "http://localhost:3000/",   
+		     url: "https://hidden-falls-5056.herokuapp.com/",   
 		     dataType: 'json',
 		     data: $('form').serialize(),
 		     success: function(){
@@ -300,7 +300,7 @@ $(document).ready(function(){
 						<div class="col-lg-8 col-md-7 col-sd-8">
 							<div class="row">
 								<div class="form">
-									<form role="form" action="http://localhost:3000/" method="post" id="#contactForm">
+									<form role="form" action="https://hidden-falls-5056.herokuapp.com/" method="post" id="#contactForm">
 										<div class="form-group">
 											<label for="formName">Nome</label>
 											<input type="text" class="form-control input-text" id="formName" name="nome">
